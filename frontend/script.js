@@ -12,11 +12,6 @@ loading.className = 'my-6 animate-pulse';
 loading.textContent = 'Thinking...';
 
 async function generate(text) {
-    /**
-     * 1. append message to ui
-     * 2. Send it to the LLM
-     * 3. Append response to the ui
-     */
     const msg = document.createElement('div');
     msg.className = `my-6 bg-neutral-800 p-3 rounded-xl ml-auto max-w-fit`;
     msg.textContent = text;

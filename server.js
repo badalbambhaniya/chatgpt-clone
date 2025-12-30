@@ -8,7 +8,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get('/', (req, res) => {
-    res.send('Welcome to ChatDPT!');
+    res.send('Welcome to ChatGPT Clone!');
 });
 
 app.post('/chat', async (req, res) => {
